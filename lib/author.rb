@@ -21,7 +21,7 @@ class Author
     @@count+=1
   end
 
-  def self.count
+  def self.author_count
     @@count
   end
 
