@@ -28,3 +28,5 @@ class Author
     post.author = self
     @@count += 1
   end
+
+end
