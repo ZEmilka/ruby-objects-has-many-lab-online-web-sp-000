@@ -10,7 +10,7 @@ class Author
 
   def add_post(post)
     @posts<<post
-    post.authore = self
+    post.author = self
     @@count+=1
   end
 
